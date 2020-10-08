@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
+
+.form-registro {
+    width: 450px;
+    height: 555px;
+    background: pink;
+    padding: 50px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.title {
+    text-align: center;
+    color: pink;
+}
+
+.date {
+    text-align: center;
+    color: black;
+    height: 2px;
+}
+
+.nom {
+    font-size: 20px;
+    margin-top: 20px;
+    color:black;
+    text-align: justify;
+}
+
+.opcion {
+    font-size: 20px;
+    color: black;
+    margin-top: 20px;
+    text-align: justify;
+}
+
+.select {
+    font-size: 20px;
+    color: black;
+    margin-top: 20px;
+    text-align: justify;
+}
+
+.controls {
+    font-size: 20px;
+    color: black;
+    margin-top: 20px;
+    text-align: justify;
+}
+
+.sel {
+    font-size: 20px;
+    margin-top: 20px;
+    text-align: justify;
+}

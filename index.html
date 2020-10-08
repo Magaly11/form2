@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <h2 class="title">FORMULARIO PARA ALUMNOS DEL CBTIS 229</h2>
+    <hr>
+    <form action="#">
+        <fieldset class="form-registro">
+            <legend class="date">DATOS DEL ESTUDIANTE</legend>
+            <div class="nom">
+                <label for="nombre">Nombre:</label>
+                <input id="nombre" type="text" name="nombre">
+            </div><br>
+            <div class="nom">
+                <label for="apellidos">Apellidos:</label>
+                <input id="apellidos" type="text" name="apellidos">
+            </div><br>
+
+            <div class="nom">
+                <label for="semestre">Semestre:</label>
+                <input id="semestre" type="text" name="semestre">
+            </div><br>
+
+            <div class="nom">
+                <label for="tutor">Tutor:</label>
+                <input id="tutor" type="text" name="tutor">
+            </div><br>
+
+            <div class="nom">
+                <label for="correo">Correo electronico:</label>
+                <input id="correo" type="text" name="correo">
+            </div><br>
+        
+
+        <div class="opcion">
+            <label for="especialidad">Especialidad</label>
+            <select name="especialidad">
+                <option value="EC">Electronica</option>
+                <option value="PG">Programación</option>
+                <option value="AQ">Arquitectura</option>
+                <option value="CB">Contabilidad</option>
+                <option value="LG">Logistica</option>
+                <option value="AM">Alimentos</option>
+                <option class="sel" value="" selected="selected">Selecciona tu especialidad</option>
+            </select>
+        </div><br>
+
+        <div class="opcion">
+            <label for="extra">Acividad extra escolar</label>
+            <select name="extra">
+                <option value="FL">Futbol</option>
+                <option value="BQ">Basquetbol</option>
+                <option value="VL">Voleibol</option>
+                <option value="AD">Ajedrez</option>
+                <option value="TR">Teatro</option>
+                <option value="MS">Musica</option>
+                <option value="RA">Rondalla</option>
+                <option value="PC">Protección Civil</option>
+                <option value="DZ">Danza</option>
+                <option class="sel" value="" selected="selected">Selecciona tu actividad extra escolar</option>
+            </select>
+        </div><br>
+
+        <div>Turno: <br>
+            <input class="select" type="radio" id="matutino" name="turno" value="matutino">
+            <label for="matutino">Matutino</label><br>
+            <input class="select" type="radio" id="vespertino" name="turno" value="vespertino">
+            <label for="vespertino">Vespertino</label><br>
+        </div><br>
+
+        <div><br>
+            <input class="controls" type="submit" name="submit" value="Enviar informacion">
+            <input class="controls" type="reset" name="reset" value="Limpiar formulario">
+        </div><br>
+    </fieldset>
+    </form>
+
+</body>
+</html>
